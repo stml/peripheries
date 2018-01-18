@@ -27,7 +27,7 @@
 <body>
 
 <div id="header">
-<h1><strong><span class="gr">περιφερειών</span> / <span class="en">peripheries</span></strong></h1>
+<h1><strong><span class="gr">περιφέρειες</span> / <span class="en">peripheries</span></strong></h1>
 </div>
 
 <div id="content">
@@ -35,7 +35,7 @@
 
 <p><span class="gr">Την πρώτη Τρίτη κάθε μήνα</span><br/><span class="en">First Tuesday of every month (Next: <?php echo date("jS F", strtotime("first tuesday of next month")); ?>)</span></p>
 
-<p><span class="gr">Ένα μπαρ, πιθανότατα στο Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
+<p><span class="gr">Ένα μπαρ, πιθανότατα στου Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
 
 <p><span class="gr">Εγγραφείτε για υπενθυμίσεις</span> / πολύ περιστασιακή λίστα αλληλογραφίας:</br /><span class="en">Sign up for reminders / very occasional mailing list:</span></p>
 
