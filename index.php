@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>peripheries</title>
+<title>περιφέρειες / peripheries</title>
 
 <link rel="stylesheet" href="styles.css?<?php echo rand(0,1000);?>"/>
 
