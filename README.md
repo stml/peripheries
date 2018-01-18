@@ -1,2 +1,2 @@
 # peripheries
-Athens Art/Tech Meetup
+Athens Art/Tech Meetup Website
