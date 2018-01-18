@@ -6,13 +6,25 @@
 body {
   margin: 50px;
   width: 600px;
-  background: #fadadd;
+  background: #f1ab96;
   font-family: Helvetica, Arial, sans-serif;
+  color: black;
 }
 
-p {
+#footer {
+  margin-top: 3em;
+  font-size: 85%;
+}
+
+h1, p {
+  font-size: 1em;
   margin-bottom: 1em;
   line-height: 1.5;
+}
+
+p .en {
+  /*font-style: italic;*/
+  color: #444;
 }
 
 a {
