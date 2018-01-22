@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>peripheries</title>
+<title>περιφέρειες / peripheries</title>
 
 <link rel="stylesheet" href="styles.css?<?php echo rand(0,1000);?>"/>
 
@@ -27,7 +27,7 @@
 <body>
 
 <div id="header">
-<h1><strong><span class="gr">περιφερειών</span> / <span class="en">peripheries</span></strong></h1>
+<h1><strong><span class="gr">περιφέρειες</span> / <span class="en">peripheries</span></strong></h1>
 </div>
 
 <div id="content">
@@ -52,7 +52,7 @@ else { $month = ''; }
 
 <p><span class="gr">Την πρώτη Τρίτη κάθε μήνα  (προσεχής: <?php echo date("j", $next)." ".$month; ?>)</span><br/><span class="en">First Tuesday of every month (next: <?php echo date("jS F", $next); ?>)</span></p>
 
-<p><span class="gr">Ένα μπαρ, πιθανότατα στο Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
+<p><span class="gr">Ένα μπαρ, πιθανότατα στου Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
 
 <p><span class="gr">Εγγραφείτε για υπενθυμίσεις</span> / πολύ περιστασιακή λίστα αλληλογραφίας:</br /><span class="en">Sign up for reminders / very occasional mailing list:</span></p>
 
