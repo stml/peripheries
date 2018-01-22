@@ -33,7 +33,24 @@
 <div id="content">
 <p><span class="gr">Μια μηνιαία συνάντηση για την τέχνη και την τεχνολογία στην Αθήνα</span></br><span class="en">A monthly meet-up for art and technology in Athens</span></p>
 
-<p><span class="gr">Την πρώτη Τρίτη κάθε μήνα</span><br/><span class="en">First Tuesday of every month (Next: <?php echo date("jS F", strtotime("first tuesday of next month")); ?>)</span></p>
+<?php $next = strtotime("first tuesday of next month"); ?>
+<?php
+if (date("n", $next) == 1) { $month = 'Ιανουάριος'; }
+else if (date("n", $next) == 2) { $month = 'Φεβρουάριος'; }
+else if (date("n", $next) == 3) { $month = 'Μάρτιος'; }
+else if (date("n", $next) == 4) { $month = 'Απρίλιος'; }
+else if (date("n", $next) == 5) { $month = 'Μάιος'; }
+else if (date("n", $next) == 6) { $month = 'Ιούνιος'; }
+else if (date("n", $next) == 7) { $month = 'Ιούλιος'; }
+else if (date("n", $next) == 8) { $month = 'Αύγουστος'; }
+else if (date("n", $next) == 9) { $month = 'Σεπτέμβριος'; }
+else if (date("n", $next) == 10) { $month = 'Οκτώβριος'; }
+else if (date("n", $next) == 11) { $month = 'Νοέμβριος'; }
+else if (date("n", $next) == 12) { $month = 'Δεκέμβριος'; }
+else { $month = ''; }
+?>
+
+<p><span class="gr">Την πρώτη Τρίτη κάθε μήνα  (προσεχής: <?php echo date("j", $next)." ".$month; ?>)</span><br/><span class="en">First Tuesday of every month (next: <?php echo date("jS F", $next); ?>)</span></p>
 
 <p><span class="gr">Ένα μπαρ, πιθανότατα στο Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
 
