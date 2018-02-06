@@ -30,3 +30,7 @@ p .en {
 a {
   color: #000;
 }
+
+p .en a {
+  color: #444;
+}

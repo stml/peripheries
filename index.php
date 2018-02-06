@@ -50,9 +50,13 @@ else if (date("n", $next) == 12) { $month = 'Δεκέμβριος'; }
 else { $month = ''; }
 ?>
 
-<p><span class="gr">Την πρώτη Τρίτη κάθε μήνα  (προσεχής: <?php echo date("j", $next)." ".$month; ?>)</span><br/><span class="en">First Tuesday of every month (next: <?php echo date("jS F", $next); ?>)</span></p>
+<p><span class="gr">Την πρώτη Τρίτη κάθε μήνα, 8μμ</span><br/><span class="en">First Tuesday of every month, 8pm</span></p>
+<!-- <p><span class="gr">Την πρώτη Τρίτη κάθε μήνα, 8μμ  (προσεχής: <?php echo date("j", $next)." ".$month; ?>)</span><br/><span class="en">First Tuesday of every month, 8pm (next: <?php echo date("jS F", $next); ?>)</span></p> -->
 
-<p><span class="gr">Ένα μπαρ, πιθανότατα στου Ψυρρή</span></br/><span class="en">A bar, probably in Psyrri</span></p>
+<p><span class="gr">2018: 6 Φεβρουαρίου, 6 Μαρτίου, 3 Απριλίου, 1 Μαΐου, 5 Ιουνίου, 3 Ιουλίου</span><br/>
+   <span class="en">2018: 6 February, 6 March, 3 April, 1 May, 5 June, 3 July</span></p>
+
+<p><span class="gr">Mέρος: <a href="https://goo.gl/maps/2hh35gNd8mP2">Φορμάικα</a>, Καρόρη 5, Αθήνα 105 51</span></br/><span class="en">Venue: <a href="https://goo.gl/maps/2hh35gNd8mP2">Formeika</a>, Karori 5, Athens 105 51</span></p>
 
 <p><span class="gr">Εγγραφείτε για υπενθυμίσεις</span> / πολύ περιστασιακή λίστα αλληλογραφίας:</br /><span class="en">Sign up for reminders / very occasional mailing list:</span></p>
 
